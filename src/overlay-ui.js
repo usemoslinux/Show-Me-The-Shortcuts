@@ -43,8 +43,10 @@
     .waso-group:last-child { border-block-end: 0; }
     .waso-group-title { margin: 0 0 8px; font-size: 1rem; }
     .waso-list { list-style: none; margin: 0; padding: 0; }
-    .waso-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 18px; align-items: center; padding: 10px 0; }
-    .waso-row + .waso-row { border-block-start: 1px solid color-mix(in srgb, var(--waso-border) 70%, transparent); }
+    .waso-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 18px; align-items: center; padding: 10px 12px; border-radius: 8px; cursor: pointer; transition: background 0.12s ease; }
+    .waso-row:hover { background: var(--waso-surface); }
+    .waso-row:focus-visible { outline: 3px solid #5aa5ef; outline-offset: -2px; }
+    .waso-row + .waso-row { margin-block-start: 4px; }
     .waso-description { margin: 0; font-weight: 600; }
     .waso-availability { grid-column: 1 / -1; margin: -2px 0 0; color: var(--waso-muted); font-size: .86rem; }
     .waso-bindings { display: flex; flex-wrap: wrap; justify-content: end; gap: 6px; }
@@ -151,12 +153,119 @@
           for (const binding of shortcut.bindings || []) for (const chord of binding.sequence || []) terms.push(...chord);
           if (normalizedQuery && !terms.some((term) => normalize(term).includes(normalizedQuery))) continue;
           const row = createElement("li", "waso-row");
+          row.setAttribute("tabindex", "0");
+          row.setAttribute("role", "button");
           row.append(createElement("p", "waso-description", shortcut.description || "Shortcut"));
           const bindings = createElement("div", "waso-bindings");
           bindings.setAttribute("aria-label", "Keyboard shortcut");
           for (const binding of shortcut.bindings || []) bindings.append(renderBinding(binding));
           row.append(bindings);
           if (shortcut.availability) row.append(createElement("p", "waso-availability", shortcut.availability));
+
+          const triggerShortcut = () => {
+            const activeBinding = shortcut.bindings.find((b) => {
+              const platform = navigator.platform.toLowerCase();
+              const isMac = platform.includes("mac");
+              const isWin = platform.includes("win");
+              const isLinux = platform.includes("linux");
+              return b.platforms.includes("all") ||
+                     (isMac && b.platforms.includes("mac")) ||
+                     (isWin && b.platforms.includes("windows")) ||
+                     (isLinux && b.platforms.includes("linux"));
+            }) || shortcut.bindings[0];
+
+            if (activeBinding && activeBinding.sequence && activeBinding.sequence.length > 0) {
+              close("shortcut-trigger");
+              // Fire keys sequentially for multi-chord sequences (e.g. ["g", "i"] or chord sequences)
+              let delay = 0;
+              activeBinding.sequence.forEach((chord) => {
+                setTimeout(() => {
+                  const keyEventData = {
+                    bubbles: true,
+                    cancelable: true,
+                    composed: true
+                  };
+
+                  // Map of special key tokens to key and code values
+                  const keyMap = {
+                    "ctrl": { key: "Control", code: "ControlLeft" },
+                    "control": { key: "Control", code: "ControlLeft" },
+                    "shift": { key: "Shift", code: "ShiftLeft" },
+                    "alt": { key: "Alt", code: "AltLeft" },
+                    "option": { key: "Alt", code: "AltLeft" },
+                    "command": { key: "Meta", code: "MetaLeft" },
+                    "cmd": { key: "Meta", code: "MetaLeft" },
+                    "meta": { key: "Meta", code: "MetaLeft" },
+                    "enter": { key: "Enter", code: "Enter" },
+                    "return": { key: "Enter", code: "Enter" },
+                    "tab": { key: "Tab", code: "Tab" },
+                    "escape": { key: "Escape", code: "Escape" },
+                    "esc": { key: "Escape", code: "Escape" },
+                    "space": { key: " ", code: "Space" },
+                    "backspace": { key: "Backspace", code: "Backspace" },
+                    "delete": { key: "Delete", code: "Delete" },
+                    "arrowup": { key: "ArrowUp", code: "ArrowUp" },
+                    "arrowdown": { key: "ArrowDown", code: "ArrowDown" },
+                    "arrowleft": { key: "ArrowLeft", code: "ArrowLeft" },
+                    "arrowright": { key: "ArrowRight", code: "ArrowRight" },
+                    "home": { key: "Home", code: "Home" },
+                    "end": { key: "End", code: "End" },
+                    "pageup": { key: "PageUp", code: "PageUp" },
+                    "pagedown": { key: "PageDown", code: "PageDown" },
+                    "\\": { key: "\\", code: "Backslash" },
+                    "/": { key: "/", code: "Slash" }
+                  };
+
+                  const pressedKeys = [];
+
+                  // Setup modifier states on the event
+                  chord.forEach((rawKey) => {
+                    const k = rawKey.toLowerCase();
+                    if (k === "ctrl" || k === "control") keyEventData.ctrlKey = true;
+                    else if (k === "shift") keyEventData.shiftKey = true;
+                    else if (k === "alt" || k === "option") keyEventData.altKey = true;
+                    else if (k === "command" || k === "cmd" || k === "meta") keyEventData.metaKey = true;
+                  });
+
+                  // We find the primary non-modifier key to represent the event's .key and .code
+                  let primaryKeyToken = chord.find((rawKey) => {
+                    const k = rawKey.toLowerCase();
+                    return !["ctrl", "control", "shift", "alt", "option", "command", "cmd", "meta"].includes(k);
+                  });
+
+                  if (!primaryKeyToken && chord.length > 0) {
+                    primaryKeyToken = chord[chord.length - 1];
+                  }
+
+                  if (primaryKeyToken) {
+                    const k = primaryKeyToken.toLowerCase();
+                    if (keyMap[k]) {
+                      keyEventData.key = keyMap[k].key;
+                      keyEventData.code = keyMap[k].code;
+                    } else {
+                      keyEventData.key = primaryKeyToken;
+                      keyEventData.code = "Key" + primaryKeyToken.toUpperCase();
+                    }
+                  }
+
+                  // Dispatch keydown followed by keyup on the restored focused element or body
+                  const targetElement = previousFocus && previousFocus.isConnected ? previousFocus : document.body;
+                  targetElement.dispatchEvent(new KeyboardEvent("keydown", keyEventData));
+                  targetElement.dispatchEvent(new KeyboardEvent("keyup", keyEventData));
+                }, delay);
+                delay += 80; // short gap between sequential chords/strokes
+              });
+            }
+          };
+
+          row.addEventListener("click", triggerShortcut);
+          row.addEventListener("keydown", (event) => {
+            if (event.key === "Enter" || event.key === " ") {
+              event.preventDefault();
+              triggerShortcut();
+            }
+          });
+
           list.append(row); groupMatches += 1; matchCount += 1;
         }
         if (groupMatches) { groupNode.append(list); container.append(groupNode); }
@@ -167,7 +276,7 @@
     function trapFocus(event) {
       if (event.key === "Escape") { event.preventDefault(); close("escape"); return; }
       if (event.key !== "Tab" || !shadow) return;
-      const focusable = [...shadow.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href]')]
+      const focusable = [...shadow.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href], li.waso-row')]
         .filter((element) => element.getClientRects().length > 0);
       if (!focusable.length) return;
       const first = focusable[0]; const last = focusable[focusable.length - 1];
