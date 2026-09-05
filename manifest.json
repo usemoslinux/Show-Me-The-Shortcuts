@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "WebApp Shortcuts Overlay",
+  "version": "1.0.0",
+  "description": "Show keyboard shortcuts for the current supported web app.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Show keyboard shortcuts"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+K"
+      },
+      "description": "Toggle the shortcuts overlay"
+    }
+  },
+  "background": {
+    "scripts": ["src/background.js"]
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "webapp-shortcuts-overlay@example.invalid",
+      "strict_min_version": "140.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
+    }
+  }
+}

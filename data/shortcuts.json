@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "id": "gmail",
+      "name": "Gmail",
+      "category": "Email & communication",
+      "sites": [{"hostname": "mail.google.com", "pathPrefixes": []}],
+      "source": {"label": "Gmail keyboard shortcuts", "url": "https://support.google.com/mail/answer/6594?hl=en&co=GENIE.Platform%3DDesktop", "official": true, "verifiedOn": "2026-09-04"},
+      "groups": [{"id": "compose", "label": "Compose and send", "shortcuts": [
+        {"id": "compose", "description": "Compose a new message", "bindings": [{"platforms": ["all"], "sequence": [["C"]]}], "availability": "Requires Gmail keyboard shortcuts to be enabled."},
+        {"id": "send", "description": "Send message", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "Enter"]]}, {"platforms": ["mac"], "sequence": [["Command", "Enter"]]}]}
+      ]}]
+    },
+    {
+      "id": "outlook-web",
+      "name": "Outlook on the web",
+      "category": "Email & communication",
+      "sites": [
+        {"hostname": "outlook.live.com", "pathPrefixes": []},
+        {"hostname": "outlook.office.com", "pathPrefixes": []},
+        {"hostname": "outlook.office365.com", "pathPrefixes": []}
+      ],
+      "source": {"label": "Keyboard shortcuts for Outlook", "url": "https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook", "official": true, "verifiedOn": "2026-09-04"},
+      "groups": [{"id": "mail", "label": "Mail", "shortcuts": [
+        {"id": "new-message", "description": "Create a new email message", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "N"]]}, {"platforms": ["mac"], "sequence": [["Command", "N"]]}]},
+        {"id": "search", "description": "Search", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "E"]]}, {"platforms": ["mac"], "sequence": [["Command", "E"]]}]}
+      ]}]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "category": "AI assistants",
+      "sites": [{"hostname": "chatgpt.com", "pathPrefixes": []}, {"hostname": "chat.openai.com", "pathPrefixes": []}],
+      "source": {"label": "ChatGPT keyboard shortcuts (community guide)", "url": "https://fastshortcuts.com/shortcuts/chatgpt/", "official": false, "verifiedOn": "2026-09-04"},
+      "groups": [{"id": "chat", "label": "Chat", "shortcuts": [
+        {"id": "send", "description": "Send message", "bindings": [{"platforms": ["all"], "sequence": [["Ctrl", "Enter"]]}], "availability": "Check the current ChatGPT interface; shortcuts can change."},
+        {"id": "new-chat", "description": "Start a new chat", "bindings": [{"platforms": ["all"], "sequence": [["Ctrl", "Shift", "O"]]}], "availability": "Check the current ChatGPT interface; shortcuts can change."}
+      ]}]
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "category": "AI assistants",
+      "sites": [{"hostname": "claude.ai", "pathPrefixes": []}],
+      "source": {"label": "Anthropic Help Center", "url": "https://support.anthropic.com/en/", "official": false, "verifiedOn": "2026-09-04"},
+      "groups": [{"id": "chat", "label": "Chat", "shortcuts": [
+        {"id": "send", "description": "Send message", "bindings": [{"platforms": ["all"], "sequence": [["Ctrl", "Enter"]]}], "availability": "Check the current Claude interface; a dedicated official shortcut reference was not found during curation."}
+      ]}]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "category": "Productivity & docs",
+      "sites": [{"hostname": "notion.so", "pathPrefixes": []}, {"hostname": "www.notion.so", "pathPrefixes": []}],
+      "source": {"label": "Notion keyboard shortcuts", "url": "https://www.notion.com/help/keyboard-shortcuts", "official": true, "verifiedOn": "2026-09-04"},
+      "groups": [{"id": "navigation", "label": "Navigation", "shortcuts": [
+        {"id": "search", "description": "Search pages and content", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "P"]]}, {"platforms": ["mac"], "sequence": [["Command", "P"]]}]},
+        {"id": "sidebar", "description": "Open or close sidebar", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "\\"]]}, {"platforms": ["mac"], "sequence": [["Command", "\\"]]}]}
+      ]}]
+    },
+    {
+      "id": "google-docs",
+      "name": "Google Docs",
+      "category": "Productivity & docs",
+      "sites": [{"hostname": "docs.google.com", "pathPrefixes": ["/document/"]}],
+      "source": {"label": "Keyboard shortcuts for Google Docs", "url": "https://support.google.com/docs/answer/179738?hl=en&co=GENIE.Platform%3DDesktop", "official": true, "verifiedOn": "2026-09-04"},
+      "groups": [{"id": "accessibility", "label": "Accessibility and navigation", "shortcuts": [
+        {"id": "screen-reader", "description": "Enable screen reader support", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "Alt", "Z"]]}, {"platforms": ["mac"], "sequence": [["Command", "Option", "Z"]]}]},
+        {"id": "next-heading", "description": "Move to next heading", "bindings": [{"platforms": ["windows", "linux"], "sequence": [["Ctrl", "Alt", "N"], ["H"]]}, {"platforms": ["mac"], "sequence": [["Command", "Option", "N"], ["H"]]}]}
+      ]}]
+    }
+  ]
+}
