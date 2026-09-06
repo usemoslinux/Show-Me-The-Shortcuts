@@ -49,6 +49,7 @@
     }
     const { app } = viewModel;
     if (!isId(app.id) || !isNonEmptyString(app.name) || !isNonEmptyString(app.category)
+      || (app.triggerOnClick !== undefined && typeof app.triggerOnClick !== "boolean")
       || !isPlainObject(app.source) || !isNonEmptyString(app.source.label)
       || !isHttpsUrl(app.source.url) || typeof app.source.official !== "boolean") {
       return false;

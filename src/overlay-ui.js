@@ -37,6 +37,7 @@
     .waso-close:hover { background: var(--waso-surface); }
     .waso-close:focus-visible, .waso-search:focus-visible, .waso-source:focus-visible { outline: 3px solid #5aa5ef; outline-offset: 2px; }
     .waso-tools { padding: 14px 20px; border-block-end: 1px solid var(--waso-border); }
+    .waso-banner { padding: 10px 20px; border-block-end: 1px solid var(--waso-border); color: var(--waso-muted); background: var(--waso-surface); font-size: .9rem; }
     .waso-search { display: block; inline-size: 100%; min-block-size: 2.6rem; padding: .55rem .72rem; border: 1px solid var(--waso-border); border-radius: 8px; color: var(--waso-text); background: var(--waso-bg); font: inherit; }
     .waso-content { overflow: auto; overscroll-behavior: contain; padding: 8px 20px 20px; }
     .waso-group { padding-block: 14px; border-block-end: 1px solid var(--waso-border); }
@@ -167,6 +168,7 @@
 
     function renderGroups(container, query) {
       const normalizedQuery = normalize(query);
+      const triggerDisabled = Boolean(viewModel.app && viewModel.app.triggerOnClick === false);
       let matchCount = 0;
       for (const group of viewModel.groups || []) {
         const groupNode = createElement("section", "waso-group");
@@ -179,8 +181,10 @@
           for (const binding of shortcut.bindings || []) for (const chord of binding.sequence || []) terms.push(...chord);
           if (normalizedQuery && !terms.some((term) => normalize(term).includes(normalizedQuery))) continue;
           const row = createElement("li", "waso-row");
-          row.setAttribute("tabindex", "0");
-          row.setAttribute("role", "button");
+          if (!triggerDisabled) {
+            row.setAttribute("tabindex", "0");
+            row.setAttribute("role", "button");
+          }
           row.append(createElement("p", "waso-description", shortcut.description || "Shortcut"));
           const bindings = createElement("div", "waso-bindings");
           bindings.setAttribute("aria-label", "Keyboard shortcut");
@@ -275,13 +279,15 @@
             }
           };
 
-          row.addEventListener("click", triggerShortcut);
-          row.addEventListener("keydown", (event) => {
-            if (event.key === "Enter" || event.key === " ") {
-              event.preventDefault();
-              triggerShortcut();
-            }
-          });
+          if (!triggerDisabled) {
+            row.addEventListener("click", triggerShortcut);
+            row.addEventListener("keydown", (event) => {
+              if (event.key === "Enter" || event.key === " ") {
+                event.preventDefault();
+                triggerShortcut();
+              }
+            });
+          }
 
           list.append(row); groupMatches += 1; matchCount += 1;
         }
@@ -293,7 +299,7 @@
     function trapFocus(event) {
       if (event.key === "Escape") { event.preventDefault(); close("escape"); return; }
       if (event.key !== "Tab" || !shadow) return;
-      const focusable = [...shadow.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href], li.waso-row')]
+      const focusable = [...shadow.querySelectorAll('button:not([disabled]), input:not([disabled]), a[href], li.waso-row[tabindex]')]
         .filter((element) => element.getClientRects().length > 0);
       if (!focusable.length) return;
       const first = focusable[0]; const last = focusable[focusable.length - 1];
@@ -333,7 +339,11 @@
         const source = createElement("a", "waso-source", viewModel.app.source.label || "Shortcut documentation"); source.href = sourceUrl.href; source.target = "_blank"; source.rel = "noopener noreferrer";
         footer.append("Source: ", source);
       }
-      panel.append(header, tools, content, footer); backdrop.append(panel);
+      panel.append(header, tools);
+      if (viewModel.app.triggerOnClick === false) {
+        panel.append(createElement("div", "waso-banner", "These shortcuts are browser access keys. Clicking a row can't trigger them \u2014 press the keys directly."));
+      }
+      panel.append(content, footer); backdrop.append(panel);
       backdrop.addEventListener("click", (event) => { if (event.target === backdrop) close("backdrop"); });
       shadow.append(backdrop); document.documentElement.append(host);
       keydownListener = trapFocus; document.addEventListener("keydown", keydownListener, true);

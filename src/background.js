@@ -119,6 +119,7 @@
       && isId(app.id)
       && isNonEmptyString(app.name)
       && isNonEmptyString(app.category)
+      && (app.triggerOnClick === undefined || typeof app.triggerOnClick === "boolean")
       && Array.isArray(app.sites)
       && app.sites.length > 0
       && app.sites.every(isValidSite)
@@ -173,6 +174,7 @@
         id: app.id,
         name: app.name,
         category: app.category,
+        triggerOnClick: app.triggerOnClick !== false,
         source: {
           label: app.source.label,
           url: app.source.url,

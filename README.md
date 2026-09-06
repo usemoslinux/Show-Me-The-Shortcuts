@@ -87,4 +87,6 @@ data/shortcuts.json        Packaged, validated shortcut guides
 
 `background.js` validates the complete dataset before any injection. Invalid IDs, unsafe source URLs, duplicate identifiers, invalid platform bindings, malformed shortcut sequences, and ambiguous cross-app site rules fail closed. User-visible fields are rendered as text nodes by the Shadow-DOM UI; data must remain plain JSON and source links must use HTTPS.
 
+Clicking (or pressing Enter on) a shortcut row replays the shortcut by dispatching a synthetic key event. This works for page-level JavaScript shortcuts, but not for browser access keys or browser-level shortcuts, which browsers only honor for real keystrokes. Apps that rely on such shortcuts set `triggerOnClick: false`; the overlay then shows a banner and disables row replay (Wikipedia is the current example).
+
 If you would like an unsupported web app to be included, please open an issue or submit a pull request. Every shortcut entry must cite a source—official documentation is preferred. In some cases, well-backed community sources for very popular web apps may also be acceptable.

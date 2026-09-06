@@ -48675,6 +48675,7 @@
       "id": "wikipedia",
       "name": "Wikipedia",
       "category": "Productivity & docs",
+      "triggerOnClick": false,
       "sites": [
         {
           "hostname": "en.wikipedia.org",
