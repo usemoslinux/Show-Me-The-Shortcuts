@@ -32,8 +32,13 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 - Reddit: `reddit.com`, `www.reddit.com`
 - Microsoft Teams Web: `teams.microsoft.com`, `teams.live.com`
 - Google Meet: `meet.google.com`
+- Google Sheets: `docs.google.com/spreadsheets/...`
+- Google Slides: `docs.google.com/presentation/...`
+- Google Drive: `drive.google.com`
+- Google Calendar: `calendar.google.com`
+- Google Chat: `chat.google.com`
 
-Matching is HTTPS-only and uses exact host names. The content adapter validates the live top-frame URL against the selected app's packaged site rules immediately before it renders, so a navigation in the action/injection interval fails closed. Generic web pages, lookalike domains, Google Sheets/Slides URLs, Firefox internal pages, PDFs, reader view, and protected pages are unavailable. On an ordinary unsupported page, the toolbar action shows an `N/A` badge and does not inject page DOM.
+Matching is HTTPS-only and uses exact host names. The content adapter validates the live top-frame URL against the selected app's packaged site rules immediately before it renders, so a navigation in the action/injection interval fails closed. Generic web pages, lookalike domains, unsupported Google Docs paths, Firefox internal pages, PDFs, reader view, and protected pages are unavailable. On an ordinary unsupported page, the toolbar action shows an `N/A` badge and does not inject page DOM.
 
 ## Load temporarily in Firefox
 
