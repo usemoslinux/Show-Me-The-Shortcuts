@@ -125,6 +125,32 @@
 
     function isOpen() { return Boolean(host && host.isConnected); }
 
+    function platformMatches(platforms) {
+      const platform = navigator.platform.toLowerCase();
+      const isMac = platform.includes("mac");
+      const isWin = platform.includes("win");
+      const isLinux = platform.includes("linux");
+      return platforms.includes("all") ||
+        (isMac && platforms.includes("mac")) ||
+        (isWin && platforms.includes("windows")) ||
+        (isLinux && platforms.includes("linux"));
+    }
+
+    function filterViewModelByPlatform(nextViewModel) {
+      return {
+        app: nextViewModel.app,
+        groups: (nextViewModel.groups || []).map((group) => ({
+          ...group,
+          shortcuts: group.shortcuts
+            .map((shortcut) => ({
+              ...shortcut,
+              bindings: (shortcut.bindings || []).filter((b) => platformMatches(b.platforms)),
+            }))
+            .filter((shortcut) => shortcut.bindings.length > 0),
+        })).filter((group) => group.shortcuts.length > 0),
+      };
+    }
+
     function renderBinding(binding) {
       const bindingNode = createElement("span", "waso-binding");
       (binding.sequence || []).forEach((chord, chordIndex) => {
@@ -163,16 +189,7 @@
           if (shortcut.availability) row.append(createElement("p", "waso-availability", shortcut.availability));
 
           const triggerShortcut = () => {
-            const activeBinding = shortcut.bindings.find((b) => {
-              const platform = navigator.platform.toLowerCase();
-              const isMac = platform.includes("mac");
-              const isWin = platform.includes("win");
-              const isLinux = platform.includes("linux");
-              return b.platforms.includes("all") ||
-                     (isMac && b.platforms.includes("mac")) ||
-                     (isWin && b.platforms.includes("windows")) ||
-                     (isLinux && b.platforms.includes("linux"));
-            }) || shortcut.bindings[0];
+            const activeBinding = shortcut.bindings[0];
 
             if (activeBinding && activeBinding.sequence && activeBinding.sequence.length > 0) {
               close("shortcut-trigger");
@@ -288,7 +305,8 @@
       if (!nextViewModel || !nextViewModel.app || !Array.isArray(nextViewModel.groups)) return;
       if (host && !host.isConnected) clearHost();
       if (isOpen()) clearHost();
-      viewModel = nextViewModel;
+      viewModel = filterViewModelByPlatform(nextViewModel);
+      if (!viewModel.groups.length) return;
       previousFocus = document.activeElement;
       host = document.createElement("webapp-shortcuts-overlay");
       host.setAttribute("data-webapp-shortcuts-overlay", "v1");
