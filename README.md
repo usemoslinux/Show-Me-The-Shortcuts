@@ -1,4 +1,4 @@
-# WebApp Shortcuts Overlay (Firefox)
+# Show Me The Shortcuts (Firefox)
 
 A Firefox Desktop 140+ Manifest V3 extension that shows a local, searchable keyboard-shortcut overlay for the supported web app in the active tab.
 
