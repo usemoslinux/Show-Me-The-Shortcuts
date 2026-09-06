@@ -41919,6 +41919,1006 @@
           ]
         }
       ]
+    },
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "category": "Video",
+      "sites": [
+        {
+          "hostname": "netflix.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.netflix.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Using keyboard shortcuts on Netflix",
+        "url": "https://help.netflix.com/en/node/24855",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "playback",
+          "label": "Playback",
+          "shortcuts": [
+            {
+              "id": "play-pause",
+              "description": "Play or pause",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rewind-10",
+              "description": "Rewind 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "forward-10",
+              "description": "Fast forward 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "skip-intro",
+              "description": "Skip intro",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volume-and-screen",
+          "label": "Volume and screen",
+          "shortcuts": [
+            {
+              "id": "volume-up",
+              "description": "Increase volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-down",
+              "description": "Decrease volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute",
+              "description": "Mute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fullscreen",
+              "description": "Enter full screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "exit-fullscreen",
+              "description": "Exit full screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trello",
+      "name": "Trello",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "trello.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.trello.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Keyboard shortcuts in Trello",
+        "url": "https://support.atlassian.com/trello/docs/keyboard-shortcuts-in-trello/",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "general",
+          "label": "General",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "View the list of keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-search",
+              "description": "Focus the search box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-board-switcher",
+              "description": "Search for and open a board",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "B"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-sidebar",
+              "description": "Collapse or expand the board sidebar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "W"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "repeat-action",
+              "description": "Repeat your last action",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "undo",
+              "description": "Undo your last action",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "redo",
+              "description": "Redo an undone action",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "go-to-inbox",
+              "description": "Open your Inbox",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-to-planner",
+              "description": "Open the Planner",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-to-board",
+              "description": "Open the current board",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "B"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-card-below",
+              "description": "Select the card below the current card",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "J"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-card-above",
+              "description": "Select the card above the current card",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-card",
+              "description": "Open the currently selected card",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cards",
+          "label": "Cards",
+          "shortcuts": [
+            {
+              "id": "create-card",
+              "description": "Create a card below the selected card",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "edit-title",
+              "description": "Edit the card title",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "edit-description",
+              "description": "Edit the card description",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "E"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "archive-card",
+              "description": "Archive a card",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "due-date",
+              "description": "Open the due date picker",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "D"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "members",
+              "description": "Add or remove members",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "vote",
+              "description": "Add or remove your vote on a card",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-filter",
+              "description": "Open the card filter",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "clear-filters",
+              "description": "Clear all active card filters",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "X"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera",
+      "category": "Video",
+      "sites": [
+        {
+          "hostname": "coursera.org",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.coursera.org",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Using a cloud workspace in Guided Projects",
+        "url": "https://www.coursera.support/s/article/learner-000001247",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "workspace",
+          "label": "Cloud workspace",
+          "shortcuts": [
+            {
+              "id": "capture-input",
+              "description": "Cursor and keyboard control the cloud desktop",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "release-input",
+              "description": "Cursor and keyboard stop controlling the cloud desktop",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl"
+                    ],
+                    [
+                      "Ctrl"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-instructions",
+              "description": "Expand or collapse the instructions panel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-shortcuts",
+              "description": "Show the keyboard shortcuts popup",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "video-player",
+          "label": "Video player",
+          "shortcuts": [
+            {
+              "id": "play-pause",
+              "description": "Play or pause",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "back-15",
+              "description": "Go 15 seconds back",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "forward-15",
+              "description": "Go 15 seconds forward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-down",
+              "description": "Decrease the volume by 10%",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-up",
+              "description": "Increase the volume by 10%",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute",
+              "description": "Mute or unmute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fullscreen",
+              "description": "Toggle fullscreen of the video player",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-captions",
+              "description": "Toggle closed captions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "speed-down",
+              "description": "Decrease the playback speed",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "-"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "speed-up",
+              "description": "Increase the playback speed",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "+"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "name": "Airbnb",
+      "category": "Travel",
+      "sites": [
+        {
+          "hostname": "airbnb.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.airbnb.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Accessibility Statement for Airbnb",
+        "url": "https://www.airbnb.com/help/article/3928",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "map",
+          "label": "Map",
+          "shortcuts": [
+            {
+              "id": "pan-up",
+              "description": "Pan the map up",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-down",
+              "description": "Pan the map down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-left",
+              "description": "Pan the map left",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-right",
+              "description": "Pan the map right",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-in",
+              "description": "Zoom the map in",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "+"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-out",
+              "description": "Zoom the map out",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "-"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -29,6 +29,7 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 | [Google Sheets](https://docs.google.com/spreadsheets/) | Productivity & docs | 123 | [Official docs](https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop) |
 | [Google Slides](https://docs.google.com/presentation/) | Productivity & docs | 167 | [Official docs](https://support.google.com/docs/answer/1696717?hl=en&co=GENIE.Platform%3DDesktop) |
 | [Notion](https://notion.so) | Productivity & docs | 128 | [Official docs](https://www.notion.com/help/keyboard-shortcuts) |
+| [Trello](https://trello.com) | Productivity & docs | 22 | [Official docs](https://support.atlassian.com/trello/docs/keyboard-shortcuts-in-trello/) |
 | [Facebook](https://facebook.com) | Social networks | 11 | [Official docs](https://www.facebook.com/help/156151771119453/) |
 | [LinkedIn](https://linkedin.com) | Social networks | 17 | [Official docs](https://www.linkedin.com/help/linkedin/answer/a6246187) |
 | [Reddit](https://reddit.com) | Social networks | 25 | [Official docs](https://support.reddithelp.com/hc/en-us/articles/38744650091412-How-to-use-keyboard-shortcuts-hotkeys) |
@@ -37,8 +38,11 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 | [Twitch](https://twitch.tv) | Video | 18 | [Community docs](https://shortcuts.kstanchev.com/apps/twitch) |
 | [Vimeo](https://vimeo.com) | Video | 18 | [Official docs](https://help.vimeo.com/hc/en-us/articles/12425998125073-What-are-player-keyboard-shortcuts) |
 | [YouTube](https://youtube.com) | Video | 25 | [Official docs](https://support.google.com/youtube/answer/7631406?hl=en) |
+| [Netflix](https://netflix.com) | Video | 9 | [Official docs](https://help.netflix.com/en/node/24855) |
+| [Coursera](https://coursera.org) | Video | 14 | [Official docs](https://www.coursera.support/s/article/learner-000001247) |
 | [Google Meet](https://meet.google.com) | Video conferencing | 15 | [Official docs](https://support.google.com/a/users/answer/9896256?hl=en&co=GENIE.Platform%3DDesktop) |
 | [Microsoft Teams](https://teams.microsoft.com) | Video conferencing | 120 | [Official docs](https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams) |
+| [Airbnb](https://airbnb.com) | Travel | 6 | [Official docs](https://www.airbnb.com/help/article/3928) |
 
 Matching is HTTPS-only and uses exact host names. The content adapter validates the live top-frame URL against the selected app's packaged site rules immediately before it renders, so a navigation in the action/injection interval fails closed. Generic web pages, lookalike domains, unsupported Google Docs paths, Firefox internal pages, PDFs, reader view, and protected pages are unavailable. On an ordinary unsupported page, the toolbar action shows an `N/A` badge and does not inject page DOM.
 
