@@ -42919,6 +42919,5757 @@
           ]
         }
       ]
+    },
+    {
+      "id": "toggl-track",
+      "name": "Toggl Track",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "track.toggl.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "toggl.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.toggl.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Are there any keyboard shortcuts?",
+        "url": "https://support.toggl.com/en-us/article/are-there-any-keyboard-shortcuts-1bcagm6/",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "timer",
+          "label": "Timer",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Show all available keyboard shortcuts on the Timer page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "stop-timer",
+              "description": "Stop the current running time entry",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-entry",
+              "description": "Switch to timer mode and start a new time entry",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "manual-mode",
+              "description": "Switch to manual mode to create a new time entry",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "continue-last",
+              "description": "Continue the last time entry",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "start-favorite",
+              "description": "Start the favorite time entry matching the number in the Favorites bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "assign-project",
+              "description": "Open the Project dropdown while entering a description",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "@"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "assign-tag",
+              "description": "Open the Tags dropdown while entering a description",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "#"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "category": "Video",
+      "sites": [
+        {
+          "hostname": "soundcloud.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.soundcloud.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "SoundCloud keyboard shortcuts",
+        "url": "https://defkey.com/soundcloud-shortcuts",
+        "official": false,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "playback",
+          "label": "Playback",
+          "shortcuts": [
+            {
+              "id": "play-pause",
+              "description": "Play or pause the current track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-track",
+              "description": "Play the next track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-track",
+              "description": "Play the previous track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "seek-forward",
+              "description": "Seek forward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "seek-backward",
+              "description": "Seek backward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "seek-position",
+              "description": "Seek to a position in the track (0–9 = 0–90%)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "0"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "4"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "5"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "7"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "8"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "9"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "repeat-track",
+              "description": "Repeat the currently playing track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "shuffle",
+              "description": "Toggle shuffle",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-next-up",
+              "description": "Show the next up queue",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Q"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "label": "Volume",
+          "shortcuts": [
+            {
+              "id": "volume-up",
+              "description": "Increase volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-down",
+              "description": "Decrease volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute",
+              "description": "Mute volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "like",
+              "description": "Like the playing track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "repost",
+              "description": "Repost the playing track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search",
+              "description": "Search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "playing-track",
+              "description": "Navigate to the playing track",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-shortcuts",
+              "description": "Show keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "H"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-likes",
+              "description": "Navigate to Likes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-library",
+              "description": "Navigate to Library",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-history",
+              "description": "Navigate to History",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "H"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-stream",
+              "description": "Navigate to Stream",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-profile",
+              "description": "Navigate to Profile",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "canva.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.canva.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Canva keyboard shortcuts",
+        "url": "https://www.canva.com/help/keyboard-shortcuts/",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "basic",
+          "label": "Basic",
+          "shortcuts": [
+            {
+              "id": "undo",
+              "description": "Undo the last action",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "redo",
+              "description": "Redo the last action",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "Z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "copy",
+              "description": "Copy selected elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cut",
+              "description": "Cut selected elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "X"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "X"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "paste",
+              "description": "Paste elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "V"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "duplicate",
+              "description": "Duplicate selected elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "D"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "D"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-all",
+              "description": "Select all elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "A"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "quick-actions",
+              "description": "Open quick actions and search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "E"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "E"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "elements",
+          "label": "Elements",
+          "shortcuts": [
+            {
+              "id": "group",
+              "description": "Group selected elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "G"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "G"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ungroup",
+              "description": "Ungroup selected elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "G"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "G"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lock",
+              "description": "Lock selected elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Shift",
+                      "L"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bring-forward",
+              "description": "Bring the element forward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "]"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "]"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send-backward",
+              "description": "Send the element backward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "["
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "["
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bring-to-front",
+              "description": "Bring the element to the front",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "]"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "]"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send-to-back",
+              "description": "Send the element to the back",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "["
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "["
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "tidy-up",
+              "description": "Tidy up elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Shift",
+                      "T"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "align-left",
+              "description": "Align elements left",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "L"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "align-center",
+              "description": "Align elements horizontally centered",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "align-right",
+              "description": "Align elements right",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "R"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "text",
+          "label": "Text",
+          "shortcuts": [
+            {
+              "id": "bold",
+              "description": "Bold text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "B"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "B"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "italic",
+              "description": "Italicize text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "I"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "underline",
+              "description": "Underline text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "U"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "U"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "font-size-up",
+              "description": "Increase the font size",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      ">"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      ">"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "font-size-down",
+              "description": "Decrease the font size",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "<"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "<"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "zoom-and-view",
+          "label": "Zoom and view",
+          "shortcuts": [
+            {
+              "id": "zoom-in",
+              "description": "Zoom in",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "+"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "+"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-out",
+              "description": "Zoom out",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "-"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "-"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-to-actual",
+              "description": "Zoom to actual size",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "0"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-to-fit",
+              "description": "Zoom to fit the design",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "0"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-to-fill",
+              "description": "Zoom to fill the screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "0"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rulers-and-guides",
+              "description": "Show rulers and guides",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pages-and-comments",
+          "label": "Pages and comments",
+          "shortcuts": [
+            {
+              "id": "scrolling-view",
+              "description": "Switch to scrolling view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "thumbnail-view",
+              "description": "Switch to thumbnail view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "grid-view",
+              "description": "Switch to grid view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "presentation-mode",
+              "description": "Enter presentation mode",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "P"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-comment",
+              "description": "Add a comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "N"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "submit-comment",
+              "description": "Submit a comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Return"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Return"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-comment",
+              "description": "Go to the next comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-comment",
+              "description": "Go to the previous comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-emoji",
+              "description": "Add an emoji to a comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      ";"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "name": "Figma",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "figma.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.figma.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Use Figma products with a keyboard",
+        "url": "https://help.figma.com/hc/en-us/articles/360040328653-Use-Figma-products-with-a-keyboard",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "tools",
+          "label": "Tools",
+          "shortcuts": [
+            {
+              "id": "move-tool",
+              "description": "Move tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "frame-tool",
+              "description": "Frame tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pen-tool",
+              "description": "Pen tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pencil-tool",
+              "description": "Pencil tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "text-tool",
+              "description": "Text tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rectangle-tool",
+              "description": "Rectangle tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "ellipse-tool",
+              "description": "Ellipse tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "line-tool",
+              "description": "Line tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "arrow-tool",
+              "description": "Arrow tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hand-tool",
+              "description": "Hand tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "H"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "comment-tool",
+              "description": "Comment tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pick-color",
+              "description": "Pick color",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "slice-tool",
+              "description": "Slice tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "auto-layout",
+              "description": "Create an auto layout frame",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "section",
+              "description": "Create a section",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "box-select",
+              "description": "Keyboard box selection tool",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Space"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "group",
+              "description": "Group selection",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "G"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "G"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "component",
+              "description": "Create a component",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "image",
+              "description": "Place an image",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "actions-and-views",
+          "label": "Actions and views",
+          "shortcuts": [
+            {
+              "id": "quick-actions",
+              "description": "Open quick actions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "/"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "shortcuts-panel",
+              "description": "Open the keyboard shortcuts panel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-in",
+              "description": "Zoom in",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "+"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "+"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-out",
+              "description": "Zoom out",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "-"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "-"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-to-fit",
+              "description": "Zoom to fit",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-to-selection",
+              "description": "Zoom to selection",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-to-100",
+              "description": "Zoom to 100%",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "0"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-canvas",
+              "description": "Pan the canvas",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-canvas-fast",
+              "description": "Pan the canvas quickly",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowDown"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowLeft"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-hide-ui",
+              "description": "Show or hide the UI",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "\\"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "\\"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "minimize-ui",
+              "description": "Minimize the UI",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "\\"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "\\"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-left-sidebar",
+              "description": "Show or hide the left sidebar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "\\"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "\\"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "file-tab",
+              "description": "Open the File tab",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "assets-tab",
+              "description": "Open the Assets tab",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "libraries-tab",
+              "description": "Open the Libraries tab",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "main-menu",
+              "description": "Focus the main menu",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "F6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "F6"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-parent",
+              "description": "Select the parent layer",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "\\"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "paste-to-replace",
+              "description": "Paste to replace",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "R"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "layout-guides",
+              "description": "Toggle layout guides",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "G"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-outlines",
+              "description": "Show outlines",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "O"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "O"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "layers-and-selection",
+          "label": "Layers and selection",
+          "shortcuts": [
+            {
+              "id": "undo",
+              "description": "Undo",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bring-forward",
+              "description": "Bring forward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "]"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "]"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send-backward",
+              "description": "Send backward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "["
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "["
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bring-to-front",
+              "description": "Bring to front",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "]"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "]"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send-to-back",
+              "description": "Send to back",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "["
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "["
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "duplicate",
+              "description": "Duplicate selection",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "D"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "D"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-all",
+              "description": "Select all",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "A"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rotate-left-1",
+              "description": "Rotate selection 1° to the left",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rotate-right-1",
+              "description": "Rotate selection 1° to the right",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "ArrowDown"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rotate-left-15",
+              "description": "Rotate selection 15° to the left",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rotate-right-15",
+              "description": "Rotate selection 15° to the right",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "Shift",
+                      "ArrowDown"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "typography",
+          "label": "Typography",
+          "shortcuts": [
+            {
+              "id": "font-size-up",
+              "description": "Increase the font size",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      ">"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      ">"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "font-size-down",
+              "description": "Decrease the font size",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "<"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "<"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "line-height-up",
+              "description": "Increase the line height",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Option",
+                      ">"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      ">"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "line-height-down",
+              "description": "Decrease the line height",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Option",
+                      "<"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "<"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "letter-spacing-up",
+              "description": "Increase the letter spacing",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      ">"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      ">"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "letter-spacing-down",
+              "description": "Decrease the letter spacing",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "<"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "<"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "font-weight-up",
+              "description": "Increase the font weight",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      ">"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Ctrl",
+                      ">"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mastodon",
+      "name": "Mastodon",
+      "category": "Social networks",
+      "sites": [
+        {
+          "hostname": "mastodon.social",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Mastodon keyboard shortcuts (web UI source)",
+        "url": "https://github.com/mastodon/mastodon/blob/main/app/javascript/mastodon/features/keyboard_shortcuts/index.jsx",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "post",
+          "label": "Post",
+          "shortcuts": [
+            {
+              "id": "reply",
+              "description": "Reply to a post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mention",
+              "description": "Mention the author",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "profile",
+              "description": "Open the author's profile",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "favorite",
+              "description": "Favorite a post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "boost",
+              "description": "Boost a post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "quote",
+              "description": "Quote a post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "q"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-status",
+              "description": "Open the status",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "o"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "translate",
+              "description": "Translate a post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-media",
+              "description": "Open media",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-cw",
+              "description": "Show or hide text behind a content warning",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-media",
+              "description": "Show or hide media",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "timeline",
+          "label": "Timeline",
+          "shortcuts": [
+            {
+              "id": "move-up",
+              "description": "Move up in the list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "PageUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-down",
+              "description": "Move down in the list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "PageDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-to-top",
+              "description": "Move to the top of the list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-column",
+              "description": "Focus a status in one of the columns",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "4"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "5"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "7"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "8"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "9"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "load-more",
+              "description": "Focus the \"Load more\" button",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-compose",
+              "description": "Focus the compose textarea",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-post",
+              "description": "Start a brand new post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-cw-field",
+              "description": "Show or hide the content warning field",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "navigate-back",
+              "description": "Navigate back",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Backspace"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-search",
+              "description": "Focus search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "s"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "unfocus",
+              "description": "Un-focus the compose textarea or search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "go-home",
+              "description": "Open the home timeline",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-trending",
+              "description": "Open the trending timeline",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-notifications",
+              "description": "Open the notifications column",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-local",
+              "description": "Open the local timeline",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-federated",
+              "description": "Open the federated timeline",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-direct",
+              "description": "Open the direct messages column",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "d"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-get-started",
+              "description": "Open the \"get started\" column",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-favorites",
+              "description": "Open the favorites list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-pinned",
+              "description": "Open the pinned posts list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-profile",
+              "description": "Open your profile",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-blocked",
+              "description": "Open the blocked users list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-muted",
+              "description": "Open the muted users list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-follow-requests",
+              "description": "Open the follow requests list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "shortcuts",
+          "label": "Shortcuts",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Display this keyboard shortcuts legend",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "wordpress.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.wordpress.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Use keyboard shortcuts in the editor",
+        "url": "https://wordpress.com/support/wordpress-editor/keyboard-shortcuts/",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "global",
+          "label": "Global",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Display these keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "H"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "H"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-code-editor",
+              "description": "Switch between the visual editor and code editor",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Option",
+                      "Command",
+                      "M"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-fullscreen",
+              "description": "Toggle fullscreen mode",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Option",
+                      "Command",
+                      "F"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "block-list-view",
+              "description": "Open the block list view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "O"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "O"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-settings-sidebar",
+              "description": "Show or hide the settings sidebar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      ","
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "navigate-next",
+              "description": "Navigate to the next part of the editor",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "N"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "navigate-previous",
+              "description": "Navigate to the previous part of the editor",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "P"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "nearest-toolbar",
+              "description": "Navigate to the nearest toolbar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "F10"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "F10"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save",
+              "description": "Save your changes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "S"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "undo",
+              "description": "Undo your last changes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "redo",
+              "description": "Redo your last undo",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "Z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-out",
+              "description": "Zoom out mode",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "0"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "selection",
+          "label": "Selection",
+          "shortcuts": [
+            {
+              "id": "select-all",
+              "description": "Select all text or blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "A"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "clear-selection",
+              "description": "Clear the selection",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "blocks",
+          "label": "Blocks",
+          "shortcuts": [
+            {
+              "id": "duplicate-block",
+              "description": "Duplicate the selected blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "D"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "D"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "remove-block",
+              "description": "Remove the selected blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "Z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "Z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insert-block-before",
+              "description": "Insert a new block before the selected blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "T"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insert-block-after",
+              "description": "Insert a new block after the selected blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "Y"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Y"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "remove-multiple-blocks",
+              "description": "Remove multiple selected blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Delete"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Backspace"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-block-up",
+              "description": "Move the selected blocks up",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Option",
+                      "Command",
+                      "T"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-block-down",
+              "description": "Move the selected blocks down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Option",
+                      "Command",
+                      "Y"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Alt",
+                      "Y"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "change-block-type",
+              "description": "Change the block type after adding a new paragraph",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "group-blocks",
+              "description": "Group selected blocks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "G"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "G"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "paste-styles",
+              "description": "Paste styles from one block to another",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "V"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-block-note",
+              "description": "Create a block note",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "M"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "text",
+          "label": "Text",
+          "shortcuts": [
+            {
+              "id": "bold",
+              "description": "Make the selected text bold",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "B"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "B"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "italic",
+              "description": "Make the selected text italic",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "I"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "link",
+              "description": "Convert the selected text into a link",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "remove-link",
+              "description": "Remove a link",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "underline",
+              "description": "Underline the selected text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "U"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "U"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "dropbox.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.dropbox.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Use Dropbox faster with keyboard shortcuts",
+        "url": "https://help.dropbox.com/organize/keyboard-shortcuts",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "files",
+          "label": "Files",
+          "shortcuts": [
+            {
+              "id": "move-between-items",
+              "description": "Move between files or folders",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-item",
+              "description": "Open a file or folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-folder",
+              "description": "Open a folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search",
+              "description": "Search files and folders",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rename",
+              "description": "Rename the selected file",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-shortcuts",
+              "description": "Show all keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "feedly",
+      "name": "Feedly",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "feedly.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.feedly.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "What are the keyboard shortcuts?",
+        "url": "https://docs.feedly.com/article/81-what-are-the-keyboard-shortcuts",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "go-to",
+              "description": "Go To: quickly jump to any feed, folder, or board",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-today",
+              "description": "Go to Today",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-all",
+              "description": "Go to All",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-read-later",
+              "description": "Go to Read Later",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-index",
+              "description": "Go to Index",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-organize-feeds",
+              "description": "Go to Organize Feeds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "O"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-preferences",
+              "description": "Go to Preferences",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-feed",
+              "description": "Go to the next feed or folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "J"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-feed",
+              "description": "Go to the previous feed or folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-ask-ai",
+              "description": "Open Ask AI",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "refresh",
+              "description": "Refresh",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pin-sidebar",
+              "description": "Pin or hide the sidebar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "["
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "article-lists",
+          "label": "Article lists",
+          "shortcuts": [
+            {
+              "id": "inline-next",
+              "description": "Inline next article",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "J"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "inline-previous",
+              "description": "Inline previous article",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-next",
+              "description": "Select the next article without opening it",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-previous",
+              "description": "Select the previous article without opening it",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mark-all-read",
+              "description": "Mark all articles as read",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "selected-article",
+          "label": "Selected article",
+          "shortcuts": [
+            {
+              "id": "inline-close-article",
+              "description": "Inline or close the currently selected article",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "view-original",
+              "description": "View the original article in a new tab",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-read",
+              "description": "Toggle mark as read",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "read-and-hide",
+              "description": "Mark as read and hide",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "X"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save-read-later",
+              "description": "Save to Read Later",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save-to-board",
+              "description": "Save to Board",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save-to-buffer",
+              "description": "Save to Buffer",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "B"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "clip-to-evernote",
+              "description": "Clip to Evernote",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
