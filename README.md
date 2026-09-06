@@ -60,7 +60,6 @@ src/background.js          URL resolution, data validation, action lifecycle
 src/content.js             Versioned message adapter and overlay lifecycle
 src/overlay-ui.js          Shadow-DOM dialog implementation
 data/shortcuts.json        Packaged, validated shortcut guides
-tests/test_extension_foundation.py
 ```
 
 `src/overlay-ui.js` is injected before `src/content.js`. Its only public contract is `globalThis.WebAppShortcutsOverlayUI.create()`, which returns a controller with `open`, `close`, `isOpen`, `focus`, and `destroy` methods.
@@ -68,3 +67,5 @@ tests/test_extension_foundation.py
 ## Maintaining shortcut data
 
 `background.js` validates the complete dataset before any injection. Invalid IDs, unsafe source URLs, duplicate identifiers, invalid platform bindings, malformed shortcut sequences, and ambiguous cross-app site rules fail closed. User-visible fields are rendered as text nodes by the Shadow-DOM UI; data must remain plain JSON and source links must use HTTPS.
+
+If you would like an unsupported web app to be included, please open an issue or submit a pull request. Every shortcut entry must cite a source—official documentation is preferred. In some cases, well-backed community sources for very popular web apps may also be acceptable.
