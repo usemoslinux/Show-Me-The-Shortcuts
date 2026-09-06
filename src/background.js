@@ -3,7 +3,7 @@
 
   const PROTOCOL_VERSION = 1;
   const DATA_URL = "data/shortcuts.json";
-  const DEFAULT_ACTION_TITLE = "Show keyboard shortcuts";
+  const DEFAULT_ACTION_TITLE = "Show shortcuts for this app";
   const ID_PATTERN = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
   const PLATFORMS = new Set(["all", "windows", "mac", "linux"]);
   let datasetPromise = null;
