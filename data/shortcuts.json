@@ -23675,6 +23675,4306 @@
           ]
         }
       ]
+    },
+    {
+      "id": "vimeo",
+      "name": "Vimeo",
+      "category": "Video",
+      "sites": [
+        {
+          "hostname": "vimeo.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.vimeo.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "What are player keyboard shortcuts?",
+        "url": "https://help.vimeo.com/hc/en-us/articles/12425998125073-What-are-player-keyboard-shortcuts",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "player",
+          "label": "Player",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Pull up the keyboard shortcuts menu",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-up",
+              "description": "Volume up",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-down",
+              "description": "Volume down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "scrub-forward",
+              "description": "Scrub forward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "scrub-backward",
+              "description": "Scrub backwards",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "play-pause",
+              "description": "Pause or play",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "share",
+              "description": "Share",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "watch-later",
+              "description": "Watch Later",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "w"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "view-on-vimeo",
+              "description": "View on Vimeo",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "v"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-mute",
+              "description": "Toggle mute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "screenshot",
+              "description": "Take a screenshot of the video frame",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-captions",
+              "description": "Toggle captions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-transcript",
+              "description": "Toggle transcript",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "player-preferences",
+              "description": "Toggle player preferences menu",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-fullscreen",
+              "description": "Toggle fullscreen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "debug-panel",
+              "description": "Open the debug panel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "d"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "frame-backward",
+              "description": "Frame backward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "frame-forward",
+              "description": "Frame forward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "category": "Social networks",
+      "sites": [
+        {
+          "hostname": "reddit.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.reddit.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "How to use keyboard shortcuts (hotkeys)",
+        "url": "https://support.reddithelp.com/hc/en-us/articles/38744650091412-How-to-use-keyboard-shortcuts-hotkeys",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Show keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-post",
+              "description": "Go to the next post or comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-post",
+              "description": "Go to the previous post or comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "expand-collapse",
+              "description": "Expand or collapse content",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "x"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Compact mode only"
+            },
+            {
+              "id": "copy-link",
+              "description": "Copy post or comment link",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "actions",
+          "label": "Actions",
+          "shortcuts": [
+            {
+              "id": "upvote",
+              "description": "Upvote",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "downvote",
+              "description": "Downvote",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply",
+              "description": "Reply to comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save",
+              "description": "Save or unsave post or comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "hide",
+              "description": "Hide post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-navigation",
+              "description": "Open or close navigation",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "q"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "collapse-comment",
+              "description": "Collapse or expand comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-post",
+              "description": "Create post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "submit",
+              "description": "Submit comment or post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "media",
+          "label": "Media",
+          "shortcuts": [
+            {
+              "id": "play-pause",
+              "description": "Play or pause",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-fullscreen",
+              "description": "Toggle fullscreen mode",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rewind-5s",
+              "description": "Rewind 5 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "forward-5s",
+              "description": "Fast-forward 5 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-up",
+              "description": "Increase volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-down",
+              "description": "Decrease volume",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rewind-10s",
+              "description": "Rewind 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "forward-10s",
+              "description": "Fast-forward 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "restart",
+              "description": "Restart",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-mute",
+              "description": "Mute or unmute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-captions",
+              "description": "Toggle captions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teams-web",
+      "name": "Microsoft Teams",
+      "category": "Video conferencing",
+      "sites": [
+        {
+          "hostname": "teams.microsoft.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "teams.live.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Keyboard shortcuts for Microsoft Teams",
+        "url": "https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "general",
+          "label": "General",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Show keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "."
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "/"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "."
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search",
+              "description": "Go to Search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-filter",
+              "description": "Open filter",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-chat",
+              "description": "Start a new chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "n"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Command",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-settings",
+              "description": "Open Settings",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      ","
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-help",
+              "description": "Open Help",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "F1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "F1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "close",
+              "description": "Close",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-to-chat",
+              "description": "Go to a specific chat or channel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "g"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pane-divider",
+              "description": "Move focus to pane divider",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "Return"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reset-pane",
+              "description": "Return pane to default width",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "Return"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "report-problem",
+              "description": "Report a problem",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "r"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Shift",
+                      "Command",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "open-app-1",
+              "description": "Open 1st app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-2",
+              "description": "Open 2nd app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-3",
+              "description": "Open 3rd app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-4",
+              "description": "Open 4th app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "4"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-5",
+              "description": "Open 5th app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "5"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "5"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-6",
+              "description": "Open 6th app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "6"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-7",
+              "description": "Open 7th app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "7"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "7"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-8",
+              "description": "Open 8th app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "8"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "8"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-app-9",
+              "description": "Open 9th app on app bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "9"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Shift",
+                      "9"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-loop",
+              "description": "Add a Loop paragraph",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "l"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-chat-list",
+              "description": "Move focus to chat or channel list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "l"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Command",
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-message-pane",
+              "description": "Move focus to message pane",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Command",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-to-compose",
+              "description": "Go to compose box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "r"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Command",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-section",
+              "description": "Go to previous section",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "F6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "F6"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-section",
+              "description": "Go to next section",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "F6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "F6"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "messaging",
+          "label": "Messaging",
+          "shortcuts": [
+            {
+              "id": "collapse-folders",
+              "description": "Collapse all conversational folders",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "q"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mark-all-read",
+              "description": "Mark all as read",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jump-last-read",
+              "description": "Jump to last read or newest message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "j"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "find-in-chat",
+              "description": "Find in current chat or channel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "f"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-1",
+              "description": "Open 1st tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-2",
+              "description": "Open 2nd tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-3",
+              "description": "Open 3rd tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-4",
+              "description": "Open 4th tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "4"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-5",
+              "description": "Open 5th tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "5"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "5"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-6",
+              "description": "Open 6th tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "6"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "6"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-7",
+              "description": "Open 7th tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "7"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "7"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-8",
+              "description": "Open 8th tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "8"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "8"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-chat-tab-9",
+              "description": "Open 9th tab on chat header",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "9"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "9"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-details",
+              "description": "Toggle details pane",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "p"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Command",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply-last",
+              "description": "Reply to the last message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "r"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Control",
+                      "Command",
+                      "z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "react-last",
+              "description": "React to the last message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "r"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "see-unread",
+              "description": "See all unread chats",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "u"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "see-chat-conversations",
+              "description": "See all chat conversations",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "c"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "see-channel-conversations",
+              "description": "See all channel conversations",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "a"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "see-meeting-chats",
+              "description": "See all meeting chats",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "b"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "clear-filters",
+              "description": "Clear all filters",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "z"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "compose",
+          "label": "Compose",
+          "shortcuts": [
+            {
+              "id": "expand-compose",
+              "description": "Expand compose box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send",
+              "description": "Send (expanded compose box)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "paragraph-style",
+              "description": "Paragraph style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "block-quote",
+              "description": "Insert block quote",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "attach-file",
+              "description": "Attach file",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "o"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "o"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-line",
+              "description": "Start a new line",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "heading-1",
+              "description": "Apply heading 1 style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "heading-2",
+              "description": "Apply heading 2 style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "heading-3",
+              "description": "Apply heading 3 style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "bold",
+              "description": "Apply bold style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "italic",
+              "description": "Apply italic style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "underline",
+              "description": "Apply underline style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "strikethrough",
+              "description": "Apply strikethrough style",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "x"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mark-important",
+              "description": "Mark message as important",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "rewrite-copilot",
+              "description": "Rewrite with Copilot",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "a"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insert-link",
+              "description": "Insert link",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insert-inline-code",
+              "description": "Insert inline code",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "c"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Shift",
+                      "Command",
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insert-code-block",
+              "description": "Insert code block",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "b"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Shift",
+                      "Command",
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insert-code",
+              "description": "Insert code",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "5"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Command",
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "meetings-calls",
+          "label": "Meetings & calls",
+          "shortcuts": [
+            {
+              "id": "accept-video",
+              "description": "Accept video call",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "a"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "accept-audio",
+              "description": "Accept audio call",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "s"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "decline-call",
+              "description": "Decline call",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "d"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "start-audio",
+              "description": "Start audio call",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "a"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "Control",
+                      "a"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "start-video",
+              "description": "Start video call",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "v"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "Control",
+                      "v"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-fullscreen",
+              "description": "Toggle full screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F11"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-in-share",
+              "description": "Zoom in shared content",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "+"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "zoom-out-share",
+              "description": "Zoom out shared content",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "-"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reset-zoom-share",
+              "description": "Reset zoom for shared content",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "end-call",
+              "description": "End audio or video call",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-mute",
+              "description": "Toggle mute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-speaker",
+              "description": "Toggle speaker",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "temp-unmute",
+              "description": "Temporarily unmute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Space"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "Space"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Enable in Settings > Privacy"
+            },
+            {
+              "id": "announce-hands",
+              "description": "Announce raised hands (screen reader)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "raise-hand",
+              "description": "Raise or lower your hand",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "k"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-share",
+              "description": "Toggle share content tray",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sharing-toolbar",
+              "description": "Go to sharing toolbar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "Space"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "schedule-meeting",
+              "description": "Schedule a meeting",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "meeting-toolbar-focus",
+              "description": "Move focus to toolbar in an edit field",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "F10"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save-meeting",
+              "description": "Save or send meeting request",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "join-details",
+              "description": "Join from meeting details",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "suggested-time",
+              "description": "Go to suggested time",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-up",
+              "description": "Pan shared content up",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-down",
+              "description": "Pan shared content down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-left",
+              "description": "Pan shared content left",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pan-right",
+              "description": "Pan shared content right",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calendar",
+          "label": "Calendar",
+          "shortcuts": [
+            {
+              "id": "open-calendar",
+              "description": "Open the calendar view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-event",
+              "description": "Open the selected item",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delete-event",
+              "description": "Delete the selected item",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Delete"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "day-view",
+              "description": "Open Day view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "work-week-view",
+              "description": "Open Work week view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "week-view",
+              "description": "Open Week view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "month-view",
+              "description": "Open Month view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "agenda-view",
+              "description": "Open agenda in Month view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "5"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-time",
+              "description": "Go to the previous time period",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowLeft"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-time",
+              "description": "Go to the next time period",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowRight"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-today",
+              "description": "Go to today",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "y"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "y"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "switch-day",
+              "description": "Switch to Day view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "switch-work-week",
+              "description": "Switch to Work week view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "switch-week",
+              "description": "Switch to full Week view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "switch-month",
+              "description": "Switch to Month view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "4"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Alt",
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-event",
+              "description": "Create a new event",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "print-calendar",
+              "description": "Print calendar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search-calendar",
+              "description": "Search your calendar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "q"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "calendar-help",
+              "description": "Show help",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "forward-event",
+              "description": "Forward an event",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply-meeting",
+              "description": "Reply to meeting",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply-all-meeting",
+              "description": "Reply all to meeting",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "join-event",
+              "description": "Join event",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "discard-draft",
+              "description": "Discard draft",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "activity",
+          "label": "Activity feed",
+          "shortcuts": [
+            {
+              "id": "mark-activity-read",
+              "description": "Mark all activity as read",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "see-unread-activity",
+              "description": "See all unread activity",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "filter-missed-calls",
+              "description": "Filter activity to missed calls",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "filter-mentions",
+              "description": "Filter activity to @ mentions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "google-meet",
+      "name": "Google Meet",
+      "category": "Video conferencing",
+      "sites": [
+        {
+          "hostname": "meet.google.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Use Meet keyboard shortcuts",
+        "url": "https://support.google.com/a/users/answer/9896256?hl=en&co=GENIE.Platform%3DDesktop",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "accessibility",
+          "label": "Accessibility",
+          "shortcuts": [
+            {
+              "id": "announce-speaker",
+              "description": "Announce who is currently speaking (screen reader)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "s"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "announce-room",
+              "description": "Announce current information about the room (screen reader)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "i"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "change-reactions",
+              "description": "Change how you want to hear reactions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "meeting-controls",
+          "label": "Meeting controls",
+          "shortcuts": [
+            {
+              "id": "toggle-captions",
+              "description": "Show or hide captions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "picture-in-picture",
+              "description": "Open picture-in-picture mode",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-camera",
+              "description": "Turn camera on or off",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "start-presenting",
+              "description": "Start presenting",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "t"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-mute",
+              "description": "Mute or unmute your microphone",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "d"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "d"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "increase-tiles",
+              "description": "Increase the number of participant tiles",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "k"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "decrease-tiles",
+              "description": "Decrease the number of participant tiles",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "j"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-chat",
+              "description": "Show or hide meeting chat window",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "c"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-participants",
+              "description": "Show or hide participants",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "p"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "raise-hand",
+              "description": "Raise or lower your hand",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "h"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "minimize-video",
+              "description": "Minimize or expand your video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "m"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Command",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "push-to-talk",
+              "description": "Push to talk",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Enable Push to Talk in settings"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
