@@ -13,30 +13,32 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 
 ## Supported sites
 
-- Gmail: `mail.google.com`
-- Outlook on the web: `outlook.live.com`, `outlook.office.com`, `outlook.office365.com`
-- ChatGPT: `chatgpt.com`, `chat.openai.com`
-- Claude: `claude.ai`
-- Notion: `notion.so`, `www.notion.so`
-- Google Docs document editor only: `docs.google.com/document/...`
-- Facebook: `facebook.com`, `www.facebook.com`
-- TikTok: `tiktok.com`, `www.tiktok.com`
-- LinkedIn: `linkedin.com`, `www.linkedin.com`
-- X: `x.com`, `twitter.com`
-- WhatsApp Web: `web.whatsapp.com`
-- Discord: `discord.com`, `www.discord.com`
-- YouTube: `youtube.com`, `www.youtube.com`
-- Telegram Web: `web.telegram.org`
-- Twitch: `twitch.tv`, `www.twitch.tv`
-- Vimeo: `vimeo.com`, `www.vimeo.com`
-- Reddit: `reddit.com`, `www.reddit.com`
-- Microsoft Teams Web: `teams.microsoft.com`, `teams.live.com`
-- Google Meet: `meet.google.com`
-- Google Sheets: `docs.google.com/spreadsheets/...`
-- Google Slides: `docs.google.com/presentation/...`
-- Google Drive: `drive.google.com`
-- Google Calendar: `calendar.google.com`
-- Google Chat: `chat.google.com`
+| Site | Category | No. of shortcuts | Source |
+|------|----------|------------------|--------|
+| [ChatGPT](https://chatgpt.com) | AI assistants | 50 | [Community docs](https://fastshortcuts.com/shortcuts/chatgpt/) |
+| [Claude](https://claude.ai) | AI assistants | 66 | [Community docs](https://support.anthropic.com/en/) |
+| [Gmail](https://mail.google.com) | Email & communication | 85 | [Official docs](https://support.google.com/mail/answer/6594?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Outlook on the web](https://outlook.live.com) | Email & communication | 92 | [Official docs](https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook) |
+| [Discord](https://discord.com) | Messaging | 30 | [Official docs](https://support.discord.com/hc/en-us/articles/31232432266647-Discord-Commands-Shortcuts-and-Navigation-Guide) |
+| [Google Chat](https://chat.google.com) | Messaging | 44 | [Official docs](https://support.google.com/chat/answer/7649271?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Telegram](https://web.telegram.org) | Messaging | 24 | [Community docs](https://en.androidsis.com/telegram-shortcuts/) |
+| [WhatsApp](https://web.whatsapp.com) | Messaging | 13 | [Official docs](https://faq.whatsapp.com/6204576529560565) |
+| [Google Calendar](https://calendar.google.com) | Productivity & docs | 18 | [Official docs](https://support.google.com/calendar/answer/37034?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Google Docs](https://docs.google.com/document/) | Productivity & docs | 194 | [Official docs](https://support.google.com/docs/answer/179738?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Google Drive](https://drive.google.com) | Productivity & docs | 68 | [Official docs](https://support.google.com/drive/answer/2563044?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Google Sheets](https://docs.google.com/spreadsheets/) | Productivity & docs | 123 | [Official docs](https://support.google.com/docs/answer/181110?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Google Slides](https://docs.google.com/presentation/) | Productivity & docs | 167 | [Official docs](https://support.google.com/docs/answer/1696717?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Notion](https://notion.so) | Productivity & docs | 128 | [Official docs](https://www.notion.com/help/keyboard-shortcuts) |
+| [Facebook](https://facebook.com) | Social networks | 11 | [Official docs](https://www.facebook.com/help/156151771119453/) |
+| [LinkedIn](https://linkedin.com) | Social networks | 17 | [Official docs](https://www.linkedin.com/help/linkedin/answer/a6246187) |
+| [Reddit](https://reddit.com) | Social networks | 25 | [Official docs](https://support.reddithelp.com/hc/en-us/articles/38744650091412-How-to-use-keyboard-shortcuts-hotkeys) |
+| [TikTok](https://tiktok.com) | Social networks | 4 | [Community docs](https://tutorialtactic.com/blog/tiktok-desktop-shortcuts/) |
+| [X](https://x.com) | Social networks | 26 | [Official docs](https://help.x.com/en/using-x/how-to-post) |
+| [Twitch](https://twitch.tv) | Video | 18 | [Community docs](https://shortcuts.kstanchev.com/apps/twitch) |
+| [Vimeo](https://vimeo.com) | Video | 18 | [Official docs](https://help.vimeo.com/hc/en-us/articles/12425998125073-What-are-player-keyboard-shortcuts) |
+| [YouTube](https://youtube.com) | Video | 25 | [Official docs](https://support.google.com/youtube/answer/7631406?hl=en) |
+| [Google Meet](https://meet.google.com) | Video conferencing | 15 | [Official docs](https://support.google.com/a/users/answer/9896256?hl=en&co=GENIE.Platform%3DDesktop) |
+| [Microsoft Teams](https://teams.microsoft.com) | Video conferencing | 120 | [Official docs](https://support.microsoft.com/en-us/accessibility/teams/keyboard-shortcuts-for-microsoft-teams) |
 
 Matching is HTTPS-only and uses exact host names. The content adapter validates the live top-frame URL against the selected app's packaged site rules immediately before it renders, so a navigation in the action/injection interval fails closed. Generic web pages, lookalike domains, unsupported Google Docs paths, Firefox internal pages, PDFs, reader view, and protected pages are unavailable. On an ordinary unsupported page, the toolbar action shows an `N/A` badge and does not inject page DOM.
 
@@ -50,14 +52,6 @@ Matching is HTTPS-only and uses exact host names. The content adapter validates 
 
 Firefox may leave a suggested command unassigned when it conflicts with another shortcut. The toolbar action remains available. Change or assign it through `about:addons` → gear menu → **Manage Extension Shortcuts**; do not add a page-level keydown handler as a workaround.
 
-To package a development XPI after validation:
-
-```sh
-zip -r webapp-shortcuts-overlay.xpi manifest.json src data README.md -x '*__pycache__*'
-```
-
-A production AMO submission needs a project-owned Gecko extension ID in place of the example ID and AMO signing.
-
 ## Structure
 
 ```text
@@ -70,24 +64,6 @@ tests/test_extension_foundation.py
 ```
 
 `src/overlay-ui.js` is injected before `src/content.js`. Its only public contract is `globalThis.WebAppShortcutsOverlayUI.create()`, which returns a controller with `open`, `close`, `isOpen`, `focus`, and `destroy` methods.
-
-## Automated checks
-
-This execution environment has no JavaScript runtime or `web-ext`. Run the package-contract tests here with:
-
-```sh
-python3 -m unittest -v tests.test_extension_foundation
-python3 -m json.tool manifest.json >/dev/null
-python3 -m json.tool data/shortcuts.json >/dev/null
-```
-
-Before release, run `web-ext lint` in an environment with Node.js/web-ext installed, then load the add-on in Firefox and exercise:
-
-- toolbar and assigned `Alt+Shift+K` activation;
-- each supported site, an unsupported Docs path, and a lookalike host;
-- repeated/rapid toggles, Escape, close button, backdrop click, filtering, focus cycling, and focus restoration;
-- an unsupported HTTPS page plus `about:addons`, reader view, PDF, `view-source:`, and AMO/protected pages;
-- a narrow viewport, 200% zoom, reduced motion, and forced-colors mode.
 
 ## Maintaining shortcut data
 
