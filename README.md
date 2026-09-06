@@ -17,6 +17,7 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 |------|----------|------------------|--------|
 | [ChatGPT](https://chatgpt.com) | AI assistants | 50 | [Community docs](https://fastshortcuts.com/shortcuts/chatgpt/) |
 | [Claude](https://claude.ai) | AI assistants | 66 | [Community docs](https://support.anthropic.com/en/) |
+| [Google Gemini](https://gemini.google.com) | AI assistants | 2 | [Community docs](https://fastshortcuts.com/shortcuts/gemini/) |
 | [Gmail](https://mail.google.com) | Email & communication | 85 | [Official docs](https://support.google.com/mail/answer/6594?hl=en&co=GENIE.Platform%3DDesktop) |
 | [Outlook on the web](https://outlook.live.com) | Email & communication | 92 | [Official docs](https://support.microsoft.com/en-us/accessibility/outlook/keyboard-shortcuts-for-outlook) |
 | [Discord](https://discord.com) | Messaging | 30 | [Official docs](https://support.discord.com/hc/en-us/articles/31232432266647-Discord-Commands-Shortcuts-and-Navigation-Guide) |
@@ -36,6 +37,8 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 | [WordPress](https://wordpress.com) | Productivity & docs | 30 | [Official docs](https://wordpress.com/support/wordpress-editor/keyboard-shortcuts/) |
 | [Dropbox](https://dropbox.com) | Productivity & docs | 6 | [Official docs](https://help.dropbox.com/organize/keyboard-shortcuts) |
 | [Feedly](https://feedly.com) | Productivity & docs | 25 | [Official docs](https://docs.feedly.com/article/81-what-are-the-keyboard-shortcuts) |
+| [Wikipedia](https://en.wikipedia.org) | Productivity & docs | 26 | [Official docs](https://en.wikipedia.org/wiki/Help:Keyboard_shortcuts) |
+| [Todoist](https://todoist.com) | Productivity & docs | 67 | [Official docs](https://www.todoist.com/help/articles/use-keyboard-shortcuts-in-todoist-Wyovn2) |
 | [Facebook](https://facebook.com) | Social networks | 11 | [Official docs](https://www.facebook.com/help/156151771119453/) |
 | [LinkedIn](https://linkedin.com) | Social networks | 17 | [Official docs](https://www.linkedin.com/help/linkedin/answer/a6246187) |
 | [Reddit](https://reddit.com) | Social networks | 25 | [Official docs](https://support.reddithelp.com/hc/en-us/articles/38744650091412-How-to-use-keyboard-shortcuts-hotkeys) |
@@ -54,7 +57,7 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 
 Matching is HTTPS-only and uses exact host names. The content adapter validates the live top-frame URL against the selected app's packaged site rules immediately before it renders, so a navigation in the action/injection interval fails closed. Generic web pages, lookalike domains, unsupported Google Docs paths, Firefox internal pages, PDFs, reader view, and protected pages are unavailable. On an ordinary unsupported page, the toolbar action shows an `N/A` badge and does not inject page DOM.
 
-For decentralized or self-hosted platforms, shortcut guides cover the flagship instance only: Mastodon matches `mastodon.social` (other servers have their own hostnames), and WordPress matches `wordpress.com` (self-hosted WordPress sites run under arbitrary domains).
+For decentralized or self-hosted platforms, shortcut guides cover the flagship instance only: Mastodon matches `mastodon.social` (other servers have their own hostnames), WordPress matches `wordpress.com` (self-hosted WordPress sites run under arbitrary domains), and Wikipedia matches `en.wikipedia.org` (other language editions run on their own subdomains). Wikipedia's shortcuts are browser access keys, so their modifier varies by browser; the listed bindings use the Firefox/Edge convention (`Alt+Shift` on Windows and Linux, `Ctrl+Option` on Mac).
 
 ## Load temporarily in Firefox
 

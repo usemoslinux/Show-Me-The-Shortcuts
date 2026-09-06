@@ -48670,6 +48670,2398 @@
           ]
         }
       ]
+    },
+    {
+      "id": "wikipedia",
+      "name": "Wikipedia",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "en.wikipedia.org",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Help:Keyboard shortcuts",
+        "url": "https://en.wikipedia.org/wiki/Help:Keyboard_shortcuts",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "site-navigation",
+          "label": "Site navigation",
+          "shortcuts": [
+            {
+              "id": "search",
+              "description": "Move the cursor to the search box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "f"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "special-pages",
+              "description": "Open Special pages",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "q"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "q"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "recent-changes",
+              "description": "Open Recent changes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "r"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "random-article",
+              "description": "Open a random article",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "x"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "main-page",
+              "description": "Open the Main Page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "z"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "z"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "user-page",
+              "description": "Open my user page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "."
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "."
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "watchlist",
+              "description": "Open my watchlist",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "l"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "l"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Logged-in users only"
+            },
+            {
+              "id": "my-talk",
+              "description": "Open my talk page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "n"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "my-contributions",
+              "description": "Open my contributions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "y"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "y"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "current-page",
+          "label": "Current page",
+          "shortcuts": [
+            {
+              "id": "edit",
+              "description": "Edit this page, or view source if it is protected",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "visual-editor",
+              "description": "Edit this page with VisualEditor",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "v"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "v"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "history",
+              "description": "View the page history",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "h"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "what-links-here",
+              "description": "Open What links here",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "j"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "related-changes",
+              "description": "Open Related changes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "k"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-page",
+              "description": "Move the page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "m"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Logged-in users only"
+            },
+            {
+              "id": "watch-page",
+              "description": "Watch or unwatch this page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "w"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "w"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Logged-in users only"
+            },
+            {
+              "id": "talk-page",
+              "description": "Switch to the talk page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "t"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-topic",
+              "description": "Start a new discussion",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "+"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "+"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "content-page",
+              "description": "Switch to the content page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "c"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "editing",
+          "label": "Editing",
+          "shortcuts": [
+            {
+              "id": "edit-box",
+              "description": "Move the cursor to the edit box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      ","
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "edit-summary",
+              "description": "Move the cursor to the edit summary",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "b"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-preview",
+              "description": "Show the preview",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "p"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "publish-changes",
+              "description": "Publish changes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "s"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "minor-edit",
+              "description": "Flag the edit as minor",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "i"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "i"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Logged-in users only"
+            }
+          ]
+        },
+        {
+          "id": "administration",
+          "label": "Administration",
+          "shortcuts": [
+            {
+              "id": "delete-page",
+              "description": "Delete or undelete the current page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "d"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "d"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Administrators only"
+            },
+            {
+              "id": "protect-page",
+              "description": "Protect or unprotect the current page",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Option",
+                      "="
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "Shift",
+                      "="
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Administrators only"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "name": "Google Gemini",
+      "category": "AI assistants",
+      "sites": [
+        {
+          "hostname": "gemini.google.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Gemini keyboard shortcuts (web app)",
+        "url": "https://fastshortcuts.com/shortcuts/gemini/",
+        "official": false,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "chat",
+          "label": "Chat",
+          "shortcuts": [
+            {
+              "id": "new-chat",
+              "description": "Start a new chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "O"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "O"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search-conversations",
+              "description": "Search your conversations",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "Productivity & docs",
+      "sites": [
+        {
+          "hostname": "todoist.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.todoist.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "app.todoist.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Use keyboard shortcuts in Todoist",
+        "url": "https://www.todoist.com/help/articles/use-keyboard-shortcuts-in-todoist-Wyovn2",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "general",
+          "label": "General",
+          "shortcuts": [
+            {
+              "id": "quick-add",
+              "description": "Open Quick Add",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Q"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search",
+              "description": "Search for tasks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "dismiss",
+              "description": "Dismiss or cancel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-sidebar",
+              "description": "Open or close the sidebar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "M"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "show-shortcuts",
+              "description": "Show keyboard shortcuts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "quick-find",
+              "description": "Open Quick Find",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "K"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "print",
+              "description": "Print the current view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "P"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-task-quick-add",
+              "description": "Open Task Quick Add",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "N"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-search",
+              "description": "Open Search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "F"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-settings",
+              "description": "Open Settings",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      ","
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "manually-sync",
+              "description": "Manually sync",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "S"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-inbox",
+              "description": "Open the Inbox",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "1"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-today",
+              "description": "Open Today",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "2"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-upcoming",
+              "description": "Open Upcoming",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "3"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-project",
+              "description": "Create a new project",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "P"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-label",
+              "description": "Create a new label",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "L"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-filter",
+              "description": "Create a new filter",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "F"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "F"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "open-task-in-project",
+              "description": "Open the task in its project",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "G"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-productivity",
+              "description": "Open Productivity",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ],
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-help",
+              "description": "Open help",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ],
+                    [
+                      "H"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-notifications",
+              "description": "Open notifications",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ],
+                    [
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-profile-menu",
+              "description": "Open the profile photo menu",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ],
+                    [
+                      "U"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-focus-up",
+              "description": "Move focus up",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "K"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-focus-down",
+              "description": "Move focus down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "J"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-focus-right",
+              "description": "Move focus right",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-focus-left",
+              "description": "Move focus left",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-home",
+              "description": "Go to Home",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "H"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "H"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-inbox",
+              "description": "Go to Inbox",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-today",
+              "description": "Go to Today",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-upcoming",
+              "description": "Go to Upcoming",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "U"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-labels",
+              "description": "Go to labels",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-projects",
+              "description": "Go to projects",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-section",
+              "description": "Go to a section",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-settings-menu",
+              "description": "Open settings",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ],
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-theme",
+              "description": "Open theme",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "O"
+                    ],
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-reporting",
+              "description": "Open Reporting",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-filters-labels",
+              "description": "Open Filters and Labels",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "G"
+                    ],
+                    [
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tasks",
+          "label": "Tasks",
+          "shortcuts": [
+            {
+              "id": "add-task-bottom",
+              "description": "Add a new task to the bottom of the list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-task-top",
+              "description": "Add a new task to the top of the list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "A"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "complete-task",
+              "description": "Complete the focused task",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "E"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-task",
+              "description": "Open the task view",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "edit-task",
+              "description": "Edit the task",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "E"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "E"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "save-edits",
+              "description": "Save edits",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "set-date",
+              "description": "Set a date",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "remove-date",
+              "description": "Remove the date",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "T"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "set-priority",
+              "description": "Set the priority level (1–4)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "1"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "2"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "3"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "4"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "change-priority",
+              "description": "Change the priority level",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Y"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "comment",
+              "description": "Add a comment",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-label",
+              "description": "Add a label",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "L"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "assign",
+              "description": "Assign or reassign",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-task",
+              "description": "Move the task to a project",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "more-task-actions",
+              "description": "More task actions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "."
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "select-task",
+              "description": "Select the focused task",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "X"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "move-to-toolbar",
+              "description": "Move focus to the multi-select toolbar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "copy-link",
+              "description": "Copy the link to the task",
+              "bindings": [
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Command",
+                      "C"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Ctrl",
+                      "C"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "indent",
+              "description": "Increase the indent of the focused task",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "]"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "outdent",
+              "description": "Decrease the indent of the focused task",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "["
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-subtasks",
+              "description": "See or hide sub-tasks",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "E"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "projects",
+          "label": "Projects",
+          "shortcuts": [
+            {
+              "id": "change-layout",
+              "description": "Change to list, board, or calendar layout",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "V"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "add-section",
+              "description": "Add a section",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "share-project",
+              "description": "Share the project",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "S"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sort-by-date",
+              "description": "Sort by date",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "D"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sort-by-priority",
+              "description": "Sort by priority",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "P"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sort-alphabetically",
+              "description": "Sort alphabetically",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "N"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "sort-by-assignee",
+              "description": "Sort by assignee",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "R"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "project-actions",
+              "description": "Open more project actions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "W"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "insights",
+              "description": "Open or close Insights",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "I"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
