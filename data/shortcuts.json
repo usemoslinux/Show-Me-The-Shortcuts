@@ -19873,6 +19873,3808 @@
           ]
         }
       ]
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "category": "Social networks",
+      "sites": [
+        {
+          "hostname": "facebook.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.facebook.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "How can I navigate Facebook with keyboard shortcuts?",
+        "url": "https://www.facebook.com/help/156151771119453/",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "feed-actions",
+          "label": "Feed actions",
+          "shortcuts": [
+            {
+              "id": "next-story",
+              "description": "Scroll to the next story in Feed",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-story",
+              "description": "Scroll to the previous story in Feed",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-selected-story",
+              "description": "See more of the selected story",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-status",
+              "description": "Post a new status",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "like-selected",
+              "description": "Like or unlike the selected story",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "comment-selected",
+              "description": "Comment on the selected story",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "share-selected",
+              "description": "Share the selected story",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-attachment",
+              "description": "Open an attachment from the selected story",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "o"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search",
+              "description": "Search",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search-chat-contacts",
+              "description": "Search chat contacts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "q"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-shortcuts-help",
+              "description": "Open the keyboard shortcuts list while in Feed",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "category": "Social networks",
+      "sites": [
+        {
+          "hostname": "tiktok.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.tiktok.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "TikTok Desktop Shortcuts",
+        "url": "https://tutorialtactic.com/blog/tiktok-desktop-shortcuts/",
+        "official": false,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "video-controls",
+          "label": "Video controls",
+          "shortcuts": [
+            {
+              "id": "previous-video",
+              "description": "Go to the previous video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-video",
+              "description": "Go to the next video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "like-video",
+              "description": "Like or unlike the current video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute-unmute",
+              "description": "Mute or unmute the current video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "category": "Social networks",
+      "sites": [
+        {
+          "hostname": "linkedin.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.linkedin.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Keyboard shortcuts FAQ",
+        "url": "https://www.linkedin.com/help/linkedin/answer/a6246187",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "feed",
+          "label": "Feed",
+          "shortcuts": [
+            {
+              "id": "new-post",
+              "description": "Open the sharebox for a new post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-article",
+              "description": "Go to the next article",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-article",
+              "description": "Go to the previous article",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "like",
+              "description": "Like the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "comment",
+              "description": "Comment on the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "repost",
+              "description": "Repost the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send",
+              "description": "Send a post or message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "notifications",
+          "label": "Notifications",
+          "shortcuts": [
+            {
+              "id": "next-notification",
+              "description": "Go to the next notification",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-notification",
+              "description": "Go to the previous notification",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "top-navigation",
+          "label": "Top navigation",
+          "shortcuts": [
+            {
+              "id": "search",
+              "description": "Focus the search box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-home",
+              "description": "Go to Home",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-network",
+              "description": "Go to My Network",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "w"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-jobs",
+              "description": "Go to Jobs",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-messaging",
+              "description": "Go to Messaging",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-notifications",
+              "description": "Go to Notifications",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-me",
+              "description": "Go to Me",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "help",
+          "label": "Help",
+          "shortcuts": [
+            {
+              "id": "show-cheat-sheet",
+              "description": "Open the keyboard shortcuts cheat sheet",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "x",
+      "name": "X",
+      "category": "Social networks",
+      "sites": [
+        {
+          "hostname": "x.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "twitter.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "How to post — keyboard shortcuts",
+        "url": "https://help.x.com/en/using-x/how-to-post",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "actions",
+          "label": "Actions",
+          "shortcuts": [
+            {
+              "id": "new-post",
+              "description": "Create a new post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "like",
+              "description": "Like the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply",
+              "description": "Reply to the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "repost",
+              "description": "Repost the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "direct-message",
+              "description": "Send a Direct Message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute-account",
+              "description": "Mute the account of the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "block-account",
+              "description": "Block the account of the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-post",
+              "description": "Open the focused post details",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "expand-photo",
+              "description": "Expand the photo or video in the focused post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "o"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search",
+              "description": "Focus the search box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send-post",
+              "description": "Send or publish the current post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "show-shortcuts",
+              "description": "Open the full keyboard shortcuts menu",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "?"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-post",
+              "description": "Go to the next post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-post",
+              "description": "Go to the previous post",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "page-down",
+              "description": "Page down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "load-new-posts",
+              "description": "Load new posts",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "."
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "timelines",
+          "label": "Timelines",
+          "shortcuts": [
+            {
+              "id": "go-home",
+              "description": "Go to Home timeline",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-moments",
+              "description": "Go to Moments",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "o"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-notifications",
+              "description": "Go to Notifications",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-mentions",
+              "description": "Go to Mentions",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "r"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-profile",
+              "description": "Go to your profile",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-likes",
+              "description": "Go to Likes",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-lists",
+              "description": "Go to Lists",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-messages",
+              "description": "Go to Direct Messages",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-settings",
+              "description": "Go to Settings and privacy",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "s"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "go-user-profile",
+              "description": "Go to someone's profile",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "g"
+                    ],
+                    [
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp",
+      "category": "Messaging",
+      "sites": [
+        {
+          "hostname": "web.whatsapp.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "About keyboard shortcuts",
+        "url": "https://faq.whatsapp.com/6204576529560565",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "chat-actions",
+          "label": "Chat actions",
+          "shortcuts": [
+            {
+              "id": "mark-unread",
+              "description": "Mark chat as unread",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "u"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Shift",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute",
+              "description": "Mute chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "archive-chat",
+              "description": "Archive chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Shift",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "pin-chat",
+              "description": "Pin chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "p"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Shift",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search-chat",
+              "description": "Search in current chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "f"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-chat",
+              "description": "New chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "n"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-group",
+              "description": "New group",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "profile-about",
+              "description": "Open profile and about",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "p"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "settings",
+              "description": "Open settings",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      ","
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "emoji-panel",
+              "description": "Open emoji panel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "navigation",
+          "label": "Navigation",
+          "shortcuts": [
+            {
+              "id": "next-chat",
+              "description": "Go to the next chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "]"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Tab"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-chat",
+              "description": "Go to the previous chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "["
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Ctrl",
+                      "Shift",
+                      "Tab"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "close-chat",
+              "description": "Close the current chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "category": "Messaging",
+      "sites": [
+        {
+          "hostname": "discord.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.discord.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Discord Commands, Shortcuts, and Navigation Guide",
+        "url": "https://support.discord.com/hc/en-us/articles/31232432266647-Discord-Commands-Shortcuts-and-Navigation-Guide",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "general-navigation",
+          "label": "General navigation",
+          "shortcuts": [
+            {
+              "id": "open-user-settings",
+              "description": "Open User Settings",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      ","
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      ","
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-keyboard-shortcuts",
+              "description": "Open the Keyboard Shortcuts menu",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "/"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-join-server",
+              "description": "Create or join a server",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "navigate-back",
+              "description": "Navigate back",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "main-functions",
+          "label": "Main functions",
+          "shortcuts": [
+            {
+              "id": "search-current-channel",
+              "description": "Search within the current channel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "f"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search-all-channels",
+              "description": "Search across all channels",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "f"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-emoji-picker",
+              "description": "Open the emoji picker",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "e"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-gif-picker",
+              "description": "Open the GIF picker",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "g"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "g"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "message-navigation",
+          "label": "Message navigation",
+          "shortcuts": [
+            {
+              "id": "previous-message",
+              "description": "Browse to the previous message in channel history",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-message",
+              "description": "Browse to the next message in channel history",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "ArrowDown"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "edit-last-message",
+              "description": "Edit your last message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "cancel-message",
+              "description": "Cancel message or mark channel as read",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-channel",
+              "description": "Move to the previous channel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "ArrowUp"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-channel",
+              "description": "Move to the next channel",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "ArrowDown"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "server-channel-navigation",
+          "label": "Server & channel navigation",
+          "shortcuts": [
+            {
+              "id": "quick-switcher",
+              "description": "Open the quick switcher for channels and DMs",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "k"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute-microphone",
+              "description": "Mute or unmute microphone",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "deafen-audio",
+              "description": "Deafen or undeafen audio",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "d"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "d"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-server",
+              "description": "Switch to the previous server",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "ArrowLeft"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-server",
+              "description": "Switch to the next server",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "ArrowRight"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "accessibility-navigation",
+          "label": "Accessibility navigation",
+          "shortcuts": [
+            {
+              "id": "navigate-interactive",
+              "description": "Navigate interactive elements",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Tab"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "activate-selected",
+              "description": "Activate the selected element",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Return"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-pins",
+              "description": "Toggle the pins popout",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "p"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-mentions",
+              "description": "Toggle the mentions popout",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Alt",
+                      "@"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Option",
+                      "@"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-member-list",
+              "description": "Toggle the channel member list",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "u"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upload-file",
+              "description": "Upload a file",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "u"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "get-help",
+              "description": "Get help",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "h"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "Shift",
+                      "h"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "text-formatting",
+          "label": "Text formatting",
+          "shortcuts": [
+            {
+              "id": "bold",
+              "description": "Bold text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "b"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "italic",
+              "description": "Italic text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "i"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "underline",
+              "description": "Underline text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "u"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "inline-code",
+              "description": "Start or stop an inline code block",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Windows/Linux only"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "youtube",
+      "name": "YouTube",
+      "category": "Video",
+      "sites": [
+        {
+          "hostname": "youtube.com",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.youtube.com",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Keyboard shortcuts for YouTube",
+        "url": "https://support.google.com/youtube/answer/7631406?hl=en",
+        "official": true,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "playback",
+          "label": "Playback",
+          "shortcuts": [
+            {
+              "id": "play-pause-space",
+              "description": "Play or pause when the seek bar is selected",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "When the seek bar is selected"
+            },
+            {
+              "id": "play-pause-k",
+              "description": "Pause or play in the player",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "mute-unmute",
+              "description": "Mute or unmute the video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-frame",
+              "description": "Skip to the next frame while paused",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "."
+                    ]
+                  ]
+                }
+              ],
+              "availability": "While the video is paused"
+            },
+            {
+              "id": "previous-frame",
+              "description": "Go back to the previous frame while paused",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      ","
+                    ]
+                  ]
+                }
+              ],
+              "availability": "While the video is paused"
+            },
+            {
+              "id": "speed-up",
+              "description": "Speed up the video playback rate",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      ">"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "slow-down",
+              "description": "Slow down the video playback rate",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "<"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "seeking",
+          "label": "Seeking",
+          "shortcuts": [
+            {
+              "id": "seek-backward-5s",
+              "description": "Seek backward 5 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "On the seek bar"
+            },
+            {
+              "id": "seek-forward-5s",
+              "description": "Seek forward 5 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "On the seek bar"
+            },
+            {
+              "id": "seek-backward-10s",
+              "description": "Seek backward 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "j"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "seek-forward-10s",
+              "description": "Seek forward 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-chapter",
+              "description": "Go to the next chapter",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "ArrowRight"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-chapter",
+              "description": "Go back to the previous chapter",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "ArrowLeft"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "seek-beginning",
+              "description": "Seek to the beginning of the video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Home"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "On the seek bar"
+            },
+            {
+              "id": "seek-end",
+              "description": "Seek to the last seconds of the video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "End"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "On the seek bar"
+            },
+            {
+              "id": "seek-percent",
+              "description": "Seek to 10%–90% of the video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "1"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Press 1–9 for 10%–90%"
+            },
+            {
+              "id": "seek-start",
+              "description": "Seek to the beginning of the video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "0"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "volume",
+          "label": "Volume",
+          "shortcuts": [
+            {
+              "id": "volume-up",
+              "description": "Increase volume 5%",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "On the seek bar"
+            },
+            {
+              "id": "volume-down",
+              "description": "Decrease volume 5%",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "On the seek bar"
+            }
+          ]
+        },
+        {
+          "id": "player-view",
+          "label": "Player & view",
+          "shortcuts": [
+            {
+              "id": "search",
+              "description": "Go to the search box",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "fullscreen",
+              "description": "Toggle full screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "captions",
+              "description": "Toggle closed captions and subtitles",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "c"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-video",
+              "description": "Move to the next video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-video",
+              "description": "Move to the previous video",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "p"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Playlists only"
+            },
+            {
+              "id": "miniplayer",
+              "description": "Open the Miniplayer",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "telegram-web",
+      "name": "Telegram",
+      "category": "Messaging",
+      "sites": [
+        {
+          "hostname": "web.telegram.org",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Keyboard Shortcuts for Telegram Web",
+        "url": "https://en.androidsis.com/telegram-shortcuts/",
+        "official": false,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "chat-management",
+          "label": "Chat management",
+          "shortcuts": [
+            {
+              "id": "send-message",
+              "description": "Send the current message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "exit-chat",
+              "description": "Exit the current chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "search-current-chat",
+              "description": "Search the current chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "next-chat",
+              "description": "Go to the next chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-chat",
+              "description": "Go to the previous chat",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "send-file",
+              "description": "Send a file",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "o"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply-previous",
+              "description": "Reply to the previous message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "reply-next",
+              "description": "Reply to the next message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "delete-selected",
+              "description": "Delete the currently selected message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Delete"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "folders",
+          "label": "Folders",
+          "shortcuts": [
+            {
+              "id": "next-folder",
+              "description": "Move to the next folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "previous-folder",
+              "description": "Move to the previous folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "jump-to-folder",
+              "description": "Jump to a specific folder",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "1"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Use Ctrl+1–8; Ctrl+8 jumps to the last used folder"
+            }
+          ]
+        },
+        {
+          "id": "text-formatting",
+          "label": "Text formatting",
+          "shortcuts": [
+            {
+              "id": "bold",
+              "description": "Bold text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "b"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "italic",
+              "description": "Italic text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "i"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-link",
+              "description": "Create or edit a link",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "underline",
+              "description": "Underline text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "u"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "monospace",
+              "description": "Monospaced text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "plain-text",
+              "description": "Plain text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "n"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "spoiler",
+              "description": "Hidden/spoiler text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "p"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "strikethrough",
+              "description": "Strikethrough text",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "quote",
+              "description": "Quote a message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "Shift",
+                      "."
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "app",
+          "label": "App",
+          "shortcuts": [
+            {
+              "id": "close-tab",
+              "description": "Close Telegram Web tab",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "w"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "lock-app",
+              "description": "Lock Telegram",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "l"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "minimize-app",
+              "description": "Minimize Telegram",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "category": "Video",
+      "sites": [
+        {
+          "hostname": "twitch.tv",
+          "pathPrefixes": []
+        },
+        {
+          "hostname": "www.twitch.tv",
+          "pathPrefixes": []
+        }
+      ],
+      "source": {
+        "label": "Twitch keyboard shortcuts",
+        "url": "https://shortcuts.kstanchev.com/apps/twitch",
+        "official": false,
+        "verifiedOn": "2026-09-06"
+      },
+      "groups": [
+        {
+          "id": "player",
+          "label": "Player",
+          "shortcuts": [
+            {
+              "id": "play-pause",
+              "description": "Play or pause",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Space"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "play-pause-alt",
+              "description": "Play or pause (alternate)",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "k"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "toggle-mute",
+              "description": "Toggle mute",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "m"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "volume-up",
+              "description": "Volume up",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowUp"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Player focused"
+            },
+            {
+              "id": "volume-down",
+              "description": "Volume down",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowDown"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Player focused"
+            },
+            {
+              "id": "toggle-fullscreen",
+              "description": "Toggle full screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "f"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "exit-fullscreen",
+              "description": "Exit full screen",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "seek-backward",
+              "description": "Seek back 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowLeft"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "VODs and clips"
+            },
+            {
+              "id": "seek-forward",
+              "description": "Seek forward 10 seconds",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "ArrowRight"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "VODs and clips"
+            }
+          ]
+        },
+        {
+          "id": "site",
+          "label": "Site",
+          "shortcuts": [
+            {
+              "id": "toggle-theatre",
+              "description": "Toggle theatre mode",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "t"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "t"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "create-clip",
+              "description": "Create a clip of the current stream",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Alt",
+                      "x"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Option",
+                      "x"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "focus-search",
+              "description": "Focus the search bar",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "/"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chat",
+          "label": "Chat",
+          "shortcuts": [
+            {
+              "id": "send-message",
+              "description": "Send chat message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "autocomplete",
+              "description": "Autocomplete username or emote",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Tab"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "autocomplete-backward",
+              "description": "Cycle autocomplete suggestions backward",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Tab"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "open-emote-picker",
+              "description": "Open the emote picker",
+              "bindings": [
+                {
+                  "platforms": [
+                    "windows",
+                    "linux"
+                  ],
+                  "sequence": [
+                    [
+                      "Ctrl",
+                      "e"
+                    ]
+                  ]
+                },
+                {
+                  "platforms": [
+                    "mac"
+                  ],
+                  "sequence": [
+                    [
+                      "Command",
+                      "e"
+                    ]
+                  ]
+                }
+              ],
+              "availability": "Chat input focused"
+            },
+            {
+              "id": "close-emote-picker",
+              "description": "Close the emote picker",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Esc"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "new-line",
+              "description": "Insert a new line in chat message",
+              "bindings": [
+                {
+                  "platforms": [
+                    "all"
+                  ],
+                  "sequence": [
+                    [
+                      "Shift",
+                      "Enter"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -19,6 +19,15 @@ It has no host permissions, static content scripts, storage, telemetry, remote c
 - Claude: `claude.ai`
 - Notion: `notion.so`, `www.notion.so`
 - Google Docs document editor only: `docs.google.com/document/...`
+- Facebook: `facebook.com`, `www.facebook.com`
+- TikTok: `tiktok.com`, `www.tiktok.com`
+- LinkedIn: `linkedin.com`, `www.linkedin.com`
+- X: `x.com`, `twitter.com`
+- WhatsApp Web: `web.whatsapp.com`
+- Discord: `discord.com`, `www.discord.com`
+- YouTube: `youtube.com`, `www.youtube.com`
+- Telegram Web: `web.telegram.org`
+- Twitch: `twitch.tv`, `www.twitch.tv`
 
 Matching is HTTPS-only and uses exact host names. The content adapter validates the live top-frame URL against the selected app's packaged site rules immediately before it renders, so a navigation in the action/injection interval fails closed. Generic web pages, lookalike domains, Google Sheets/Slides URLs, Firefox internal pages, PDFs, reader view, and protected pages are unavailable. On an ordinary unsupported page, the toolbar action shows an `N/A` badge and does not inject page DOM.
 
