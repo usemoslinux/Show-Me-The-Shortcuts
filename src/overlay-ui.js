@@ -333,6 +333,20 @@
       tools.append(search);
       const content = createElement("main", "waso-content"); renderGroups(content, "");
       search.addEventListener("input", () => { content.replaceChildren(); renderGroups(content, search.value); });
+      // Keep keystrokes typed in the overlay search box from reaching the page.
+      // The input lives inside a shadow root, so the page sees the host element
+      // (not the input) as the event target / active element, which makes apps
+      // with a "focus my input when you type" handler (e.g. ChatGPT, Claude)
+      // steal focus mid-typing.
+      for (const type of ["keydown", "keyup", "keypress", "beforeinput", "input"]) {
+        search.addEventListener(type, (event) => event.stopPropagation());
+      }
+      const guardSearchFocus = () => {
+        if (host && host.isConnected && document.activeElement !== host) search.focus();
+      };
+      for (const type of ["keydown", "keyup", "input", "beforeinput"]) {
+        search.addEventListener(type, () => setTimeout(guardSearchFocus, 0));
+      }
       const footer = createElement("footer", "waso-footer");
       const sourceUrl = viewModel.app.source && safeHttpsUrl(viewModel.app.source.url);
       if (sourceUrl) {
